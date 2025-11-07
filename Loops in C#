@@ -1,0 +1,19 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("enter how many loops to run: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= x; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("loop finished");
+        }
+    }
+}
