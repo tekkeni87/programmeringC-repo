@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+
+        string numberAsText = "1111";
+
+        int number = int.Parse(numberAsText);
+
+        Console.WriteLine(number);
+
+    }
+}
