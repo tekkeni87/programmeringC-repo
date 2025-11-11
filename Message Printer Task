@@ -1,0 +1,12 @@
+using System;
+class P
+{
+    static void Main()
+    {
+        Console.Write("ënter message: ");
+        var m = Console.ReadLine();
+        Console.WriteLine($"\nOriginal: {m}\nReversed: {new string(m.Reverse().ToArray())}\n");
+        Console.WriteLine("Top to bottom:"); foreach (var c in m) Console.WriteLine(c);
+        Console.WriteLine("\nTop to bottom (reversed):"); for (int i = m.Length - 1; i >= 0; i--) Console.WriteLine(m[i]);
+    }
+}
