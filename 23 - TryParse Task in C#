@@ -1,0 +1,23 @@
+using System;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+Console.Write("enter a number: ");
+string input = Console.ReadLine();
+
+ int number;
+
+ if (int.TryParse(input, out number))
+        {
+            Console.WriteLine("conversion Succeeded: " + number);
+        }
+        else
+        {
+            Console.WriteLine("Conversion failed");
+        }
+
+        Console.ReadLine();
+    }
+}
