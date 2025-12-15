@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num1 = 3, num2 = 7, num3 = 4, num4 = 5, num5 = 20, num6 = 6;
+
+Console.WriteLine(num1 + num2);
+Console.WriteLine(num3 * num4);
+Console.WriteLine(num5 % num6);
+
+Console.WriteLine(num6++);
+Console.WriteLine(++num6);
+Console.WriteLine(num6--);
+Console.WriteLine(--num6);
+
+Console.WriteLine(num5 += 2);
+Console.WriteLine(num5 -= 3);
+Console.WriteLine(num5 *= 2);
+Console.WriteLine(num5 /= 3);
+Console.WriteLine(num5 %= 4);
+
+    }
+}
